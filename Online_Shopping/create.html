@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Barakat Shop</title>
+    <link rel="stylesheet" type="text/css" href="login_form.css">
+</head>
+<body>
+    <div id="loginForm">
+        <h2 style="font-size:50px; font-weight: bolder;">Create Account</h2><br>
+        <form action="create.php" method="POST">
+            <label style="font-size: 35px;">Username:
+				<input type="text" name="newLogin" required style="width:170px; height:23px; margin-left: 185px;">
+			</label><br><br>
+            
+            <label style="font-size: 35px;">Password:
+				<input type="password" name="newPassword" required style="width:170px; height:23px;margin-left: 192px;">
+			</label><br><br>
+            
+            <label style="font-size: 35px;">Retype Password:
+				<input type="password" name="retypePassword" required style="width:170px; height:23px;margin-left: 85px;">
+			</label><br><br>
+            
+            <label style="font-size: 35px;">Credit Card Number:  <!--Credit_Card-->
+				<input type="text" name="Credit_Card" required style="width:170px; height:23px;margin-left: 39px;">
+			</label><br><br>
+            <br>
+            <input type="submit" value="Create Account" style="font-size: 30px;">
+        </form>
+    </div>
+</body>
+</html>
